@@ -1,0 +1,118 @@
+/* Big tablet to 1200px (width smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .intro {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+
+    .mainNav { padding: 20px 5%; }
+
+    .aboutMe p { padding-top: 0; }
+
+    .box { height: 40vh; }
+
+    .box h3 {
+        font-size: 110%;
+        margin-bottom: 0;
+    }
+
+    .box ul { font-size: 90%; }
+}
+
+/* Small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    section { padding: 60px 0; }
+
+    .intro { padding: 12%; }
+
+    .mainNav li { margin-bottom: 25px; }
+
+    .mainNav li a:link,
+    .mainNav li a:visited { font-size: 80%; }
+
+    .sticky .mainNav { display: none; }
+
+    .sticky .mobileNavIcon {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .sticky .mobileNavIcon i { color: #555555; }
+
+    .aboutMe p { padding-top: 0; }
+
+    .hiking {
+        margin: 30px;
+        height: 100px;
+    }
+
+    .box { height: 35vh; }
+
+    .box h3 { font-size: 90%; margin-bottom: -5px;}
+
+    .box ul { font-size: 80%; }
+
+    .box i {margin-right: 0;}
+
+    .projects h6 { font-size: 90%; }
+
+    .paragraphs {
+        font-size: 90%;
+        margin: 5px;
+    }
+
+    .code {font-size: 90%;}
+
+    .image { height: 300px; }
+
+    .text {
+        font-size: 70%;
+        margin: 10px 5px;
+    }
+
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+    section { padding: 30px 0px; }
+
+    .mainNav { display: none; }
+    
+    .mainNav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .mainNav li { display: block; }
+
+    .mainNav li a:link,
+    .mainNav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;
+    }
+
+    .sticky .mainNav li a:link,
+    .sticky .mainNav li a:visited {
+        border-bottom: 0;
+        padding: 5px 0;
+    }
+
+    .mobileNavIcon { display: inline-block; }
+
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    .hiking {
+        margin: 50px 10% 0 10%;
+    }
+
+}

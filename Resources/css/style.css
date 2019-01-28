@@ -1,0 +1,442 @@
+/* ---- Colors ---- */
+/* Lightest: #f1f3f5 */
+/* Light #a0aebe */
+/* Normal #566a80 */
+/* Dark #2d3843 */
+/* Darkest #191e25 */
+
+/* ---------------------------------------------- */
+/* Basic Setup */
+/* ---------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    background: #ffffff;
+    color: #191e25;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* ---------------------------------------------- */
+/* Reusable Components */
+/* ---------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* ---- Headings ---- */
+
+h1,
+h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #191e25;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 300%;
+    word-spacing: 3px;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3,
+h4,
+h6 {
+    color: #191e25;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #191e25;
+    content: " ";
+    margin: 10px auto;
+}
+
+h4 {
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+h4:after {
+    display: block;
+    height: 1px;
+    width: 100px;
+    background-color: #191e25;
+    content: " ";
+    margin: 10px 0;
+}
+
+h5 {
+    margin: 5px 0 10px 0;
+}
+
+h6 {
+    font-size: 120%;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* ---- Paragraphs ---- */
+
+.longCopy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 10px;
+    color: #191e25;
+}
+
+/* ---- Icons ---- */
+
+.smallIcon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #191e25;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/* ---------------------------------------------- */
+/* Header */
+/* ---------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/mtn.jpg");
+    /* Photo by Paula Vermeulen on Unsplash */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.intro {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ---- Main Nav ---- */
+
+.mainNav {
+    margin-top: 40px;
+    padding: 20px 10%;
+    list-style: none;
+}
+
+.mainNav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.mainNav li a:link,
+.mainNav li a:visited {
+    margin: 0 auto;
+    padding: 10px 10px;
+    color: #191e25;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border: 2px solid transparent;
+    transition: border .2s;
+}
+
+.mainNav li a:hover,
+.mainNav li a:active {
+    margin: 0 auto;
+    border: 2px solid #191e25;
+    padding: 10px;
+}
+
+/* ---- Mobile Nav ---- */
+
+.mobileNavIcon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobileNavIcon i {
+    font-size: 200%;
+    color: #191e25;
+}
+
+/* ---- Sticky Nav ---- */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .mainNav li a:link,
+.sticky .mainNav li a:visited {
+    padding: 10px 10px;
+    color: #191e25;
+    border: none;
+}
+
+.sticky .mainNav li a:hover,
+.sticky .mainNav li a:active {
+    margin: 0 auto;
+    border-bottom: 2px solid #191e25;
+    padding: 10px 10px;
+}
+
+.sticky .mainNav {
+    margin-top: 5px;
+}
+
+/* ---------------------------------------------- */
+/* About Me Section */
+/* ---------------------------------------------- */
+
+.aboutMeSec {
+    padding: 15px;
+}
+
+.authorImage {
+    width: 100%;
+}
+
+.aboutMe p {
+    padding-top: 50px;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.hiking {
+    margin: 50px;
+    height: 150px;
+    width: auto;
+}
+
+/* ---------------------------------------------- */
+/* Skills Section */
+/* ---------------------------------------------- */
+
+.skills {
+    background-image: url("img/plants.jpg");
+    /* Photo by Rebecca Malone on Unsplash */
+    background-size: cover;
+    box-shadow: #191e25;
+    background-attachment: fixed;
+}
+
+.box {
+    height: 45vh;
+    background-color: #f1f3f5;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box div {
+    padding: 10px;
+}
+
+/* ---------------------------------------------- */
+/* Projects Section */
+/* ---------------------------------------------- */
+
+.projects h6 {
+    margin-bottom: 0;
+}
+
+.code {
+    margin-bottom: 10px;
+}
+
+.code a:link,
+.code a:visited {
+    color: #566a80;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #566a80;
+    -webkit-transition: border-bottom .2s, color .2s;
+    -o-transition: border-bottom .2s, color .2s;
+    transition: border-bottom .2s, color .2s;
+}
+
+.code a:hover,
+.code a:active {
+    color: #191e25;
+    border-bottom: transparent;
+}
+
+/* ---------------------------------------------- */
+/* Experience Section */
+/* ---------------------------------------------- */
+
+.experience {
+    background-color: #f1f3f5;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffffff;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: #555555;
+    font-size: 85%;
+    position: absolute;
+    margin: 20px 15px;
+    text-align: left;
+}
+
+.text ul {
+    margin: 10px 20px;
+}
+
+/* ---------------------------------------------- */
+/* Contact Section */
+/* ---------------------------------------------- */
+
+.contact {
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 100%;
+    font-weight: 200;
+    border: 1px solid #555555;
+}
+
+.contactImage,
+.girlImage {
+    margin-top: 80px;
+    width: 75%;
+    height: auto;
+}
+
+.girlImage {
+    margin-left: 25%;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+/* ---------------------------------------------- */
+/* Footer */
+/* ---------------------------------------------- */
+
+footer {
+    background-color: #2d3843;
+    height: 100%;
+}
+
+.copyRight {
+    color: #ffffff;
+    margin: 25px;
+}
+
+.socialLinks {
+    list-style: none;
+    float: right;
+    margin: 25px;
+}
+
+.socialLinks li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.socialLinks i {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/* ---------------------------------------------- */
+/* Animations */
+/* ---------------------------------------------- */
+
+.jswp1 {
+    opacity: 0;
+}
+
+.jswp1 .animated {
+    opacity: 1;
+}
