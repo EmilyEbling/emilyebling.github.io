@@ -399,6 +399,23 @@ input[type=submit] {
     padding: 10px 30px;
 }
 
+.formMessage {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.success {
+    background-color: #b3ffb8;
+}
+
+.error {
+    background: #ffa0a8;
+}
+
 /* ---------------------------------------------- */
 /* Footer */
 /* ---------------------------------------------- */
