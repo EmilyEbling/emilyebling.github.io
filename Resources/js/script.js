@@ -21,11 +21,7 @@ $(document).ready(function () {
         offset: '65%'
     });
 
-    $('.jswp2').waypoint(function (direction) {
-        $('.jswp2').addClass('animated pulse');
-    }, {
-        offset: '95%'
-    });
+    /* Mobile Nav */
 
     $('.jsNavIcon').click(function() {
        var nav = $('.jsMainNav');

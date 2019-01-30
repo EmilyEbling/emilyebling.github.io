@@ -186,7 +186,8 @@ header {
 
 /* ---- Mobile Nav ---- */
 
-.mobileNavIcon {
+.mobileNavIcon,
+.sticky mobileNavIcon {
     float: right;
     margin-top: 30px;
     cursor: pointer;
@@ -365,55 +366,29 @@ header {
 
 .contact {
     margin: 0 auto;
-}
-
-input,
-textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 3px;
-    margin-bottom: 20px;
-    font-size: 100%;
-    font-weight: 200;
-    border: 1px solid #555555;
-}
-
-.contactImage,
-.girlImage {
-    margin-top: 80px;
-    width: 75%;
-    height: auto;
-}
-
-.girlImage {
-    margin-left: 25%;
-}
-
-*:focus {
-    outline: none;
-}
-
-input[type=submit] {
-    display: inline-block;
-    width: 100%;
-    padding: 10px 30px;
-}
-
-.formMessage {
-    width: 70%;
-    margin: 0 auto;
-    padding: 10px;
-    border-radius: 3px;
-    margin-bottom: 20px;
     text-align: center;
 }
 
-.success {
-    background-color: #b3ffb8;
+.contact a:link,
+.contact a:visited {
+    color: #555555;
+    text-decoration: none;
+    border-bottom: 1px solid #555555;
+    -webkit-transition: border-bottom .2s, color .2s;
+    -o-transition: border-bottom .2s, color .2s;
+    transition: border-bottom .2s, color .2s;
 }
 
-.error {
-    background: #ffa0a8;
+.contact a:hover,
+.contact a:active {
+    color: #566a80;
+    border-bottom: 1px solid #566a80;
+}
+
+.contact img {
+    margin-top: 50px;
+    height: 150px;
+    width: auto;
 }
 
 /* ---------------------------------------------- */
@@ -457,3 +432,4 @@ footer {
 .jswp1 .animated {
     opacity: 1;
 }
+

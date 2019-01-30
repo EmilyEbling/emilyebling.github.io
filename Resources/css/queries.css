@@ -115,4 +115,8 @@
         margin: 50px 10% 0 10%;
     }
 
+    .overlay {
+        opacity: 1;
+    }
+
 }
