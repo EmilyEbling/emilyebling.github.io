@@ -173,4 +173,20 @@
 
     section { padding: 25px 0; }
 
+    .authorImage { margin: 0 15%; }
+
+    .box {
+        height: 45vh;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .projects p { height: 105px; }
+
+    .projects .col:after { margin-bottom: 20px; }
+
+    .code:last-of-type { margin-bottom: 20px; }
+
+    .overlay { font-size: 115%; }
+
 }
