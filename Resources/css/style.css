@@ -399,6 +399,50 @@ header {
     border-bottom: 1px solid #555555;
 }
 
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 60%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid #566a80;
+    font-size: 90%;
+    font-weight: 300;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+textarea {
+    height: 80px;
+}
+
+input[type=submit] {
+    width: 40%;
+    height: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    font-size: 100%;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: #2d3843;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Lato', 'Arial', sans-serif;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #566a80;
+}
+
+*:focus {
+    outline: none;
+}
+
 .contact img {
     margin-top: 50px;
     height: 150px;

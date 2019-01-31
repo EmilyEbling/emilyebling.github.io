@@ -264,11 +264,24 @@
             <div class="row">
                 <h3>Contact Me!</h3>
                 <p class="longCopy">
-                    Whether you'd like a copy of my resume or just want to chat, feel free to email me at <a href="mailto:eblingemily17@gmail.com">eblingemily17@gmail.com</a> or check out my social media listed below!
+                    Whether you'd like a copy of my resume or just want to chat, feel free to fill out this form or check out my social media listed below!
                 </p>
             </div>
             <div class="row">
-                <img src="Resources/img/contact.svg" class="contactImage">
+                <form name="input" method="POST" action="https://formspree.io/eblingemily17@gmail.com">
+                    <div class="row">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                    </div>
+                    <div class="row">
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                    </div>
+                    <div class="row">
+                        <textarea name="Message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
             </div>
         </section>
 
