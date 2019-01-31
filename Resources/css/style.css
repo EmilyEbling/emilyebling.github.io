@@ -383,22 +383,6 @@ header {
     text-align: center;
 }
 
-.contact a:link,
-.contact a:visited {
-    color: #566a80;
-    text-decoration: none;
-    border-bottom: 1px solid #566a80;
-    -webkit-transition: border-bottom .2s, color .2s;
-    -o-transition: border-bottom .2s, color .2s;
-    transition: border-bottom .2s, color .2s;
-}
-
-.contact a:hover,
-.contact a:active {
-    color: #555555;
-    border-bottom: 1px solid #555555;
-}
-
 input[type=text],
 input[type=email],
 select,
