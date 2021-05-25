@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58784383-ab0d-411b-8859-d6ff0efb3bc0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MyWebsite$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1546455310328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="260" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>border</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/Vendors/css/animate.css" />
+        <option value="$PROJECT_DIR$/Resources/img/hiking.svg" />
+        <option value="$PROJECT_DIR$/mailer.php" />
+        <option value="$PROJECT_DIR$/Resources/js/script.js" />
+        <option value="$PROJECT_DIR$/Resources/css/queries.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Resources/css/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="88" />
+    <option name="y" value="23" />
+    <option name="width" value="1297" />
+    <option name="height" value="801" />
+  </component>
+  <component name="ProjectId" id="1t2RsvdOeU2hyOGgXjDqYPQ0UkR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyWebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/css/img" />
+      <recent name="$PROJECT_DIR$/Resources/img" />
+      <recent name="$PROJECT_DIR$/Vendors/js" />
+      <recent name="$PROJECT_DIR$/Vendors/css" />
+      <recent name="$PROJECT_DIR$/Resources/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Resources/js" />
+      <recent name="$PROJECT_DIR$/Vendors/fonts" />
+      <recent name="$PROJECT_DIR$/Vendors/css" />
+      <recent name="$PROJECT_DIR$/Stylesheets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MyWebsite/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58784383-ab0d-411b-8859-d6ff0efb3bc0" name="Default Changelist" comment="" />
+      <created>1546394213159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546394213159</updated>
+      <workItem from="1546394214487" duration="3490000" />
+      <workItem from="1546454298525" duration="22210000" />
+      <workItem from="1546886819259" duration="342000" />
+      <workItem from="1546912608464" duration="27400000" />
+      <workItem from="1547484752492" duration="1583000" />
+      <workItem from="1547606760886" duration="17069000" />
+      <workItem from="1547847249580" duration="18318000" />
+      <workItem from="1548429698524" duration="17000" />
+      <workItem from="1548685878843" duration="3649000" />
+      <workItem from="1548724794281" duration="12905000" />
+      <workItem from="1548892031955" duration="7000" />
+      <workItem from="1548892064929" duration="825000" />
+      <workItem from="1548904826820" duration="3199000" />
+      <workItem from="1549032542661" duration="142000" />
+      <workItem from="1549032737875" duration="879000" />
+      <workItem from="1549292129364" duration="7000" />
+      <workItem from="1549292212004" duration="1435000" />
+      <workItem from="1549299455256" duration="1354000" />
+      <workItem from="1549307855230" duration="515000" />
+      <workItem from="1549325495635" duration="3000" />
+      <workItem from="1549326055477" duration="1631000" />
+      <workItem from="1549328883093" duration="1000" />
+      <workItem from="1549588131996" duration="214000" />
+      <workItem from="1549661803422" duration="21000" />
+      <workItem from="1549661856225" duration="408000" />
+      <workItem from="1549897258229" duration="10000" />
+      <workItem from="1549904316988" duration="1867000" />
+      <workItem from="1549933659098" duration="2204000" />
+      <workItem from="1550097381199" duration="913000" />
+      <workItem from="1550101302812" duration="2000" />
+      <workItem from="1550249457813" duration="1633000" />
+      <workItem from="1550266459686" duration="1010000" />
+      <workItem from="1551113595765" duration="503000" />
+      <workItem from="1551237796700" duration="378000" />
+      <workItem from="1551545231477" duration="349000" />
+      <workItem from="1551659556995" duration="258000" />
+      <workItem from="1551660010425" duration="547000" />
+      <workItem from="1551725348705" duration="1706000" />
+      <workItem from="1552074709508" duration="419000" />
+      <workItem from="1552317881417" duration="247000" />
+      <workItem from="1552346394569" duration="3000" />
+      <workItem from="1553913259308" duration="106000" />
+      <workItem from="1554143776945" duration="17000" />
+      <workItem from="1554143906968" duration="883000" />
+      <workItem from="1554234364316" duration="2320000" />
+      <workItem from="1554661933501" duration="606000" />
+      <workItem from="1554731033931" duration="658000" />
+      <workItem from="1554769801997" duration="463000" />
+      <workItem from="1554920077377" duration="31000" />
+      <workItem from="1555619881650" duration="1682000" />
+      <workItem from="1555974733068" duration="1590000" />
+      <workItem from="1556131343744" duration="240000" />
+      <workItem from="1556645727525" duration="1308000" />
+      <workItem from="1621965410158" duration="397000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updates photos used">
+      <created>1548114978797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548114978798</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adds responsiveness">
+      <created>1548726396532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548726396532</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adds form capability">
+      <created>1548728931959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548728931959</updated>
+    </task>
+    <task id="LOCAL-00004" summary="URL bug fix">
+      <created>1548729105206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548729105206</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cosmetic fixes">
+      <created>1548811219894</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548811219894</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cosmetic fixes">
+      <created>1548820515590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548820515590</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Cosmetic fixes">
+      <created>1548821002129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548821002129</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cosmetic fixes">
+      <created>1548821637929</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1548821637929</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adds contact form">
+      <created>1548906608858</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1548906608859</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adds contact form">
+      <created>1548906872671</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548906872671</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adds vendor prefixes">
+      <created>1548907000327</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1548907000327</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HA">
+      <created>1548907893393</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1548907893393</updated>
+    </task>
+    <task id="LOCAL-00013" summary=":)">
+      <created>1548908036732</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1548908036732</updated>
+    </task>
+    <task id="LOCAL-00014" summary="I'm quitting after this one">
+      <created>1548908160184</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1548908160184</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="139577000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="88" y="23" width="1297" height="801" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21896684" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32921812" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32998455" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/emilyebling.github.io" />
+    </ignored-roots>
+    <MESSAGE value="Updates photos used" />
+    <MESSAGE value="Adds responsiveness" />
+    <MESSAGE value="Adds form capability" />
+    <MESSAGE value="URL bug fix" />
+    <MESSAGE value="Cosmetic fixes" />
+    <MESSAGE value="Adds contact form" />
+    <MESSAGE value="Adds vendor prefixes" />
+    <MESSAGE value="HA" />
+    <MESSAGE value=":)" />
+    <MESSAGE value="I'm quitting after this one" />
+    <option name="LAST_COMMIT_MESSAGE" value="I'm quitting after this one" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Vendors/css/grid.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/Emily.jpg" />
+    <entry file="file://$PROJECT_DIR$/Vendors/css/ionicons.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/css/img/blue1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Resources/img/light.png" />
+    <entry file="file://$PROJECT_DIR$/Resources/img/Emily.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/img/computer.jpg" />
+    <entry file="file://$PROJECT_DIR$/Resources/img/paper.jpg" />
+    <entry file="file://$PROJECT_DIR$/Resources/img/notepads.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vendors/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="842">
+          <caret line="3622" column="1" selection-start-line="3622" selection-start-column="1" selection-end-line="3622" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/img/hiking.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/mailer.php" />
+    <entry file="file://$PROJECT_DIR$/Vendors/js/jquery.waypoints.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/css/queries.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-882">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="33" />
+          <folding>
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4321">
+          <caret line="289" column="9" lean-forward="true" selection-start-line="289" selection-start-column="9" selection-end-line="289" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

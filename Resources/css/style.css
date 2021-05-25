@@ -61,7 +61,6 @@ h2 {
 }
 
 h3,
-h4,
 h6 {
     color: #191e25;
 }
@@ -84,6 +83,7 @@ h3:after {
 }
 
 h4 {
+    color: #ffffff;
     letter-spacing: 1px;
     font-weight: 300;
 }
@@ -92,7 +92,7 @@ h4:after {
     display: block;
     height: 1px;
     width: 100px;
-    background-color: #191e25;
+    background-color: #ffffff;
     content: " ";
     margin: 10px 0;
 }
@@ -354,27 +354,12 @@ header {
     height: 350px;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    -webkit-transition: .5s ease;
-    -o-transition: .5s ease;
-    transition: .5s ease;
-    background-color: #ffffff;
-}
-
 .container:hover .overlay {
     opacity: 1;
 }
 
 .text {
-    color: #555555;
+    color: #ffffff;
     position: absolute;
     margin: 20px 15px;
     padding: 10px;
