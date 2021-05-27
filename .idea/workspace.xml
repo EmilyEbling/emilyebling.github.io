@@ -93,7 +93,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Resources/css/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -102,19 +102,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/css/img" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Resources/js" />
+      <recent name="$PROJECT_DIR$/Vendors/fonts" />
+      <recent name="$PROJECT_DIR$/Vendors/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Resources/css/img" />
       <recent name="$PROJECT_DIR$/Resources/img" />
       <recent name="$PROJECT_DIR$/Vendors/js" />
       <recent name="$PROJECT_DIR$/Vendors/css" />
       <recent name="$PROJECT_DIR$/Resources/css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Resources/js" />
-      <recent name="$PROJECT_DIR$/Vendors/fonts" />
-      <recent name="$PROJECT_DIR$/Vendors/css" />
-      <recent name="$PROJECT_DIR$/Stylesheets" />
     </key>
   </component>
   <component name="RunManager">
@@ -191,7 +191,10 @@
       <workItem from="1555974733068" duration="1590000" />
       <workItem from="1556131343744" duration="240000" />
       <workItem from="1556645727525" duration="1308000" />
-      <workItem from="1621965410158" duration="397000" />
+      <workItem from="1621965410158" duration="472000" />
+      <workItem from="1621967066328" duration="66000" />
+      <workItem from="1621967807315" duration="5699000" />
+      <workItem from="1622131271616" duration="3384000" />
     </task>
     <task id="LOCAL-00001" summary="Updates photos used">
       <created>1548114978797</created>

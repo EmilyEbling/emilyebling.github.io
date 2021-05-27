@@ -1,10 +1,3 @@
-/* ---- Colors ---- */
-/* Lightest: #f1f3f5 */
-/* Light #a0aebe */
-/* Normal #566a80 */
-/* Dark #2d3843 */
-/* Darkest #191e25 */
-
 /* ---------------------------------------------- */
 /* Basic Setup */
 /* ---------------------------------------------- */
@@ -19,8 +12,8 @@
 html,
 body {
     scroll-behavior: smooth;
-    background: #ffffff;
-    color: #191e25;
+    background: #f1f3f5;
+    color: #000000;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 200;
     font-size: 20px;
@@ -45,9 +38,7 @@ section {
 
 h1,
 h2 {
-    text-transform: uppercase;
     font-weight: 300;
-    color: #191e25;
     letter-spacing: 1px;
 }
 
@@ -60,13 +51,7 @@ h2 {
     font-size: 150%;
 }
 
-h3,
-h6 {
-    color: #191e25;
-}
-
 h3 {
-    text-transform: uppercase;
     font-weight: 300;
     font-size: 150%;
     text-align: center;
@@ -77,13 +62,12 @@ h3:after {
     display: block;
     height: 2px;
     width: 100px;
-    background-color: #191e25;
+    background-color: #000000;
     content: " ";
     margin: 10px auto;
 }
 
 h4 {
-    color: #ffffff;
     letter-spacing: 1px;
     font-weight: 300;
 }
@@ -92,20 +76,13 @@ h4:after {
     display: block;
     height: 1px;
     width: 100px;
-    background-color: #ffffff;
+    background-color: #000000;
     content: " ";
     margin: 10px 0;
 }
 
 h5 {
     margin: 5px 0 10px 0;
-}
-
-h6 {
-    font-size: 120%;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin-bottom: 20px;
 }
 
 /* ---- Paragraphs ---- */
@@ -115,21 +92,6 @@ h6 {
     width: 70%;
     margin-left: 15%;
     margin-bottom: 10px;
-    color: #191e25;
-}
-
-/* ---- Icons ---- */
-
-.smallIcon {
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    color: #191e25;
-    font-size: 120%;
-    margin-right: 10px;
-    line-height: 120%;
-    vertical-align: middle;
-    margin-top: -5px;
 }
 
 /* ---------------------------------------------- */
@@ -137,11 +99,11 @@ h6 {
 /* ---------------------------------------------- */
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(226, 228, 230, 0.4)), to(rgba(226, 228, 230, .4))), url("img/mtn.jpg");
-    background-image: -webkit-linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/mtn.jpg");
-    background-image: -o-linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/mtn.jpg");
-    background-image: linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/mtn.jpg");
-    /* Photo by Paula Vermeulen on Unsplash */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(226, 228, 230, 0.4)), to(rgba(226, 228, 230, .4))), url("img/header.jpg");
+    background-image: -webkit-linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/header.jpg");
+    background-image: -o-linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/header.jpg");
+    background-image: linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/header.jpg");
+    /* Photo by Pawel Czerwinski on Unsplash */
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -175,11 +137,10 @@ header {
 
 .mainNav li a:link,
 .mainNav li a:visited {
+    color: #000000;
     margin: 0 auto;
-    padding: 10px 10px;
-    color: #191e25;
+    padding: 10px 20px;
     text-decoration: none;
-    text-transform: uppercase;
     font-size: 90%;
     border: 2px solid transparent;
     -webkit-transition: border .2s;
@@ -189,9 +150,7 @@ header {
 
 .mainNav li a:hover,
 .mainNav li a:active {
-    margin: 0 auto;
-    border: 2px solid #191e25;
-    padding: 10px;
+    border-bottom: 2px solid #000000;
 }
 
 /* ---- Mobile Nav ---- */
@@ -206,7 +165,7 @@ header {
 
 .mobileNavIcon i {
     font-size: 200%;
-    color: #191e25;
+    color: #000000;
 }
 
 /* ---- Sticky Nav ---- */
@@ -216,7 +175,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: #bdccb6;
     -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
@@ -225,14 +184,14 @@ header {
 .sticky .mainNav li a:link,
 .sticky .mainNav li a:visited {
     padding: 10px 10px;
-    color: #191e25;
+    color: #000000;
     border: none;
 }
 
 .sticky .mainNav li a:hover,
 .sticky .mainNav li a:active {
     margin: 0 auto;
-    border-bottom: 2px solid #191e25;
+    border-bottom: 2px solid #000000;
     padding: 10px 10px;
 }
 
@@ -260,51 +219,73 @@ header {
     line-height: 150%;
 }
 
-.hiking {
-    margin: 50px;
-    height: 150px;
-    width: auto;
-}
-
 /* ---------------------------------------------- */
 /* Skills Section */
 /* ---------------------------------------------- */
 
 .skills {
-    background-image: url("img/plants.jpg");
-    /* Photo by Rebecca Malone on Unsplash */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(226, 228, 230, 0.4)), to(rgba(226, 228, 230, .4))), url("img/skills.jpg");
+    background-image: -webkit-linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/skills.jpg");
+    background-image: -o-linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/skills.jpg");
+    background-image: linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/skills.jpg");
+    /*Photo by Scott Webb on Unsplash*/
     background-size: cover;
-    -webkit-box-shadow: #191e25;
-    box-shadow: #191e25;
+    -webkit-box-shadow: #000000;
+    box-shadow: #000000;
     background-attachment: fixed;
 }
 
+.skills h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.skills h4:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #000000;
+    content: " ";
+    margin: 10px auto;
+}
+
 .box {
+    width: 100%;
     height: 45vh;
     background-color: #f1f3f5;
     border-radius: 5px;
-    width: 90%;
     margin-left: 5%;
-}
-
-.box ul {
-    list-style: none;
-}
-
-.box div {
-    padding: 10px;
+    padding: 25px;
 }
 
 /* ---------------------------------------------- */
 /* Projects Section */
 /* ---------------------------------------------- */
 
-.projects h6 {
-    margin-bottom: 20px;
+.projects h4 {
+    text-align: center;
+}
+
+.projects h4:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #000000;
+    content: " ";
+    margin: 10px auto;
 }
 
 .projects p {
-    height: 140px;
+    margin-bottom: 20px;
+}
+
+.project {
+    border: 1px solid #73826b;
+    border-radius: 5px;
+    box-shadow: 6px 6px 5px gray;
+    padding: 7px;
+    margin-bottom: 50px;
+    height: 30vh;
 }
 
 .code {
@@ -313,10 +294,10 @@ header {
 
 .code a:link,
 .code a:visited {
-    color: #566a80;
+    color: #485243;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #566a80;
+    border-bottom: 1px solid #485243;
     -webkit-transition: border-bottom .2s, color .2s;
     -o-transition: border-bottom .2s, color .2s;
     transition: border-bottom .2s, color .2s;
@@ -324,7 +305,7 @@ header {
 
 .code a:hover,
 .code a:active {
-    color: #191e25;
+    color: #73826b;
     border-bottom: transparent;
 }
 
@@ -333,42 +314,39 @@ header {
 /* ---------------------------------------------- */
 
 .experience {
-    background-color: #2d3843;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(226, 228, 230, 0.4)), to(rgba(226, 228, 230, .4))), url("img/experience.jpg");
+    background-image: -webkit-linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/experience.jpg");
+    background-image: -o-linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/experience.jpg");
+    background-image: linear-gradient(rgba(226, 228, 230, 0.4), rgba(226, 228, 230, .4)), url("img/experience.jpg");
+    /*Photo by Scott Webb on Unsplash*/
+    background-size: cover;
+    -webkit-box-shadow: #000000;
+    box-shadow: #000000;
+    background-attachment: fixed;
 }
 
-.experience h3 {
-    color: #ffffff;
-}
-
-.experience h3:after {
-    background-color: #ffffff;
-}
-
-.container {
-    position: relative;
-}
-
-.image {
-    display: block;
+.exp-box {
     width: 100%;
-    height: 350px;
+    height: 60vh;
+    background-color: #f1f3f5;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 25px;
 }
 
-.container:hover .overlay {
-    opacity: 1;
+.experience h4,
+.experience h5 {
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-.text {
-    color: #ffffff;
-    position: absolute;
-    margin: 20px 15px;
-    padding: 10px;
-    text-align: left;
-}
-
-.text ul {
-    margin: 10px 20px;
-    font-size: 100%;
+.experience h4:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #000000;
+    content: " ";
+    margin: 10px auto;
 }
 
 /* ---------------------------------------------- */
@@ -380,55 +358,29 @@ header {
     text-align: center;
 }
 
-input[type=text],
-input[type=email],
-select,
-textarea {
-    width: 60%;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 3px;
-    border: 1px solid #566a80;
-    font-size: 90%;
-    font-weight: 300;
-    font-family: 'Lato', 'Arial', sans-serif;
-}
-
-textarea {
-    height: 80px;
-}
-
-input[type=submit] {
+.email-button {
     width: 40%;
     height: 50px;
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     font-size: 100%;
-    text-decoration: none;
-    border-radius: 3px;
-    background-color: #2d3843;
     color: #ffffff;
-    font-weight: 300;
-    font-family: 'Lato', 'Arial', sans-serif;
-    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
-    -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #73826b;
+    border: none;
 }
 
-input[type=submit]:hover,
-input[type=submit]:active {
-    background-color: #566a80;
+.email-button:hover,
+.email-button:active {
+    background-color: #73826b;
+    border: none;
 }
 
-*:focus {
-    outline: none;
-}
-
-.contact img {
-    margin-top: 50px;
-    height: 150px;
-    width: auto;
+.email-button:focus {
+    outline: 0;
+    border: none;
 }
 
 /* ---------------------------------------------- */
@@ -436,7 +388,7 @@ input[type=submit]:active {
 /* ---------------------------------------------- */
 
 footer {
-    background-color: #2d3843;
+    background-color: #73826b;
     height: 100%;
 }
 
@@ -459,16 +411,4 @@ footer {
 .socialLinks i {
     font-size: 25px;
     color: #ffffff;
-}
-
-/* ---------------------------------------------- */
-/* Animations */
-/* ---------------------------------------------- */
-
-.jswp1 {
-    opacity: 0;
-}
-
-.jswp1 .animated {
-    opacity: 1;
 }

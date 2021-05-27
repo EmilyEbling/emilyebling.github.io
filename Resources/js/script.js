@@ -13,14 +13,6 @@ $(document).ready(function () {
         offset: '70px;'
     });
 
-    /* Animations on Scrolls */
-
-    $('.jswp1').waypoint(function (direction) {
-        $('.jswp1').addClass('animated fadeInLeft');
-    }, {
-        offset: '65%'
-    });
-
     /* Mobile Nav */
 
     $('.jsNavIcon').click(function() {
