@@ -365,16 +365,16 @@ header {
     padding: 10px 30px;
     font-weight: 300;
     font-size: 100%;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     border-radius: 5px;
-    background-color: #73826b;
+    background-color: #bdccb6;
     border: none;
 }
 
 .email-button:hover,
 .email-button:active {
-    background-color: #73826b;
+    background-color: #bdccb6;
     border: none;
 }
 
@@ -388,12 +388,12 @@ header {
 /* ---------------------------------------------- */
 
 footer {
-    background-color: #73826b;
+    background-color: #bdccb6;
     height: 100%;
 }
 
 .copyRight {
-    color: #ffffff;
+    color: #000000;
     margin: 25px;
 }
 
@@ -410,5 +410,5 @@ footer {
 
 .socialLinks i {
     font-size: 25px;
-    color: #ffffff;
+    color: #000000;
 }
