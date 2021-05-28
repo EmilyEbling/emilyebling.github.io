@@ -412,3 +412,7 @@ footer {
     font-size: 25px;
     color: #000000;
 }
+
+.visually-hidden {
+    display: none;
+}
